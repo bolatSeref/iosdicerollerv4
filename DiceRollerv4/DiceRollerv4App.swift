@@ -10,8 +10,10 @@ import SwiftUI
 @main
 struct DiceRollerv4App: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+            WindowGroup {
+                NavigationStack {
+                    ContentView()
+                }
+            }
         }
     }
-}
